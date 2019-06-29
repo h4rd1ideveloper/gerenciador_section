@@ -3,10 +3,7 @@ require_once( dirname(__FILE__) .'/PureComponents.php');
     /**
      *@Description Classe base para gerar views
      *@Ver 1.0.0
-     <a href="<?= bloginfo('url'); ?>"  class="">
-                                    <div class="section__footer--logo"></div>
-                                </a>
-     */
+     *<a href="<?= bloginfo('url'); ?>"  class=""><div class="section__footer--logo"></div></a> */
     class Section extends PureComponents {
 
         public function __construct() {
